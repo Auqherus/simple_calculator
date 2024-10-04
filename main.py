@@ -35,4 +35,16 @@ class Calculator:
 
     def get_result(self):
         return self.__result
+    
+def main():
+
+    calc = Calculator()
+
+    calc.add(3)
+    calc.power(2)
+    calc.multiply(4)
+    calc.divide(2)
+    print(calc.get_result())
+
+main()
 
