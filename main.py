@@ -46,7 +46,12 @@ def main():
     calc.divide(2)
     calc.modulo(4)
     calc.subtract(232)
-    print(calc.get_result()) # 2.0
+    calc.square_root()
+    calc.multiply(16)
+    calc.clear()
+    calc.add(16)
+    calc.power(4)
+    print(calc.get_result()) # 65536
 
 main()
 
