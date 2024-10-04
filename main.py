@@ -44,7 +44,9 @@ def main():
     calc.power(2)
     calc.multiply(4)
     calc.divide(2)
-    print(calc.get_result())
+    calc.modulo(4)
+    calc.subtract(232)
+    print(calc.get_result()) # 2.0
 
 main()
 
